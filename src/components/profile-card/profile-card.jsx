@@ -16,7 +16,7 @@ const ProfileCard = ({title, text, currentLikes}) => {
         setState(true)
     }
 
-    const changeColor = state ? "red" : "darkseagreen"
+    const buttonColor = state ? "red" : "darkseagreen"
 
 
     return (
@@ -24,7 +24,7 @@ const ProfileCard = ({title, text, currentLikes}) => {
             <h1>{title}</h1>
             <div className={classes.textInfo}>{text}</div>
             <div className={classes.likes}>Likes: {counter}</div>
-            <div className={classes.button} onClick={like} style={{backgroundColor: changeColor }}>Like</div>
+            <div className={classes.button} onClick={like} style={{backgroundColor: buttonColor }}>Like</div>
         </div>
     )
 }
