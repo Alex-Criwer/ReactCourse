@@ -12,14 +12,18 @@
     font-size: 16px;
 }
 
-.likes {
-    text-align: center;
+.text {
     margin-bottom: 5px;
     font-size: 16px;
 }
 
+.position {
+    display: flex;
+    justify-content: space-around;
+}
+
 .button {
-    width: 60px;
+    width: 70px;
     height: auto;
     font-size: 16px;
     margin: 0 auto 5px;
